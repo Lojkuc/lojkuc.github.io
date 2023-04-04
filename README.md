@@ -1,2 +1,2 @@
-# lojkuc.github.i
+# lojkuc.github.io
 
