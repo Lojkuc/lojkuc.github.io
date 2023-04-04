@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300;1,700&family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1a64f65040.js" crossorigin="anonymous"></script>
+  <title>SOFTCORP TASK</title>
+<script defer src="index.js"></script></head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo">
+            <a class="header__logo" href="">LoremIpsum.<span>NET</span></a>
+          </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+              <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+              <li><a class="nav__link" href="#business">Бизнес</a></li>
+              <li><a class="nav__link" href="#aboutus">О нас</a></li>
+              <li><a class="nav__link" href="#price">Цены</a></li>
+              <li><a class="nav__link" href="#checkout">Оформить заказ</a></li>
+            </ul>
+        </div>
+      </div>
+    </header>
+    <section class="wrapper__content">
+      <div class="container">
+        <h1 class="wrapper__main-text"><span>Lorem ipsum</span> dolor sit <br> amet
+          consectetur <span>adipiscing</span>
+        </h1>
+        <ul class="wrapper__subtext-list">
+          At vero eos et accusamus et iusto odio dignissimos ducimus!
+          <li class="wrapper__subtext-list__item">Totam rem aperiam eaque ipsa</li>
+          <li class="wrapper__subtext-list__item">Sit voluptatem accusantium doloremque laudantium</li>
+          <li class="wrapper__subtext-list__item">Sed ut perspiciatis, unde omnis iste natus error</li>
+        </ul>
+        <div class="wrapper__button">
+          <button class="button">Заказать</button>
+          <button class="button more">Подробнее</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <main class="main">
+    <div class="container">
+      <div class="main__inner">
+        <div class="main__inner__title">
+          <h2>Оформление <span>заказа</span></h2>
+          <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+        </div>
+        <div class="main__inner__functional">
+          <div class="main__inner__functional__item">
+            <div class="main__inner__functional__item__icon">
+              <i><img src="./img/search.svg" alt=""></i>
+              <span></span>
+            </div>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+          <div class="main__inner__functional__item">
+            <div class="main__inner__functional__item__icon">
+              <i><img src="./img/interest.svg" alt=""></i>
+              <span></span>
+            </div>
+            <p>Сonsecteturadipiscing elit</p>
+          </div>
+          <div class="main__inner__functional__item">
+            <div class="main__inner__functional__item__icon">
+              <i><img src="./img/add-doc.svg" alt=""></i>
+              <span></span>
+            </div>
+            <p>Sed do eiusmod tempor</p>
+          </div>
+          <div class="main__inner__functional__item">
+            <div class="main__inner__functional__item__icon">
+              <i><img src="./img/message.svg" alt=""></i>
+              <span></span>
+            </div>
+            <p>Esse cillum dolore eu fugiat</p>
+          </div>
+          <div class="main__inner__functional__item">
+            <div class="main__inner__functional__item__icon">
+              <i><img src="./img/money.svg" alt=""></i>
+            </div>
+            <p>Excepteur sint occaecat cupidatat non proident</p>
+          </div>
+        </div>
+          <form action="#" class="main__inner__form">
+              <div class="customselect">
+                <div class="select-btn">
+                  <span>Выберите тип системы</span>
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="customselect__content">
+                  <ul class="customselect__content__options">
+                    <li>Sed ut perspiciatis</li>
+                    <li>Nemo enim ipsam</li>
+                    <li>Et harum quidem</li>
+                    <li>Temporibus autem</li>
+                    <li>Itaque earum rerum</li>
+                  </ul>
+                </div>
+              </div>
+              <input type="email" name="email" placeholder="Ваш e-mail" class="main__inner__form__input">
+              <input type="text" name="name" placeholder="Ваше имя" class="main__inner__form__input">
+            <div class="main__inner__form__range-block">
+                <p>Sed ut perspiciatis, unde omnis iste natus</p>
+                <span id="value">75%</span>
+                <input type="range" name="slider" class="main__inner__form__range-block__slider" id="slider" min="1" max="100" value="75">
+            </div>
+              <button class="main__inner__form__attach">
+                <i><img src="./img/attach-doc.svg" alt="attach-doc"></i>
+                Прикрепить файл
+              </button>
+              <button class="main__inner__form__submit button" >Отправить</button>
+          </form>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__inner__title">
+          © 2018 «LOREMIPSUN.NET» Все права защищены.
+        </div>
+        <div class="footer__inner__payment">
+          <div class="footer__inner__item">
+            <img src="./img/qiwi.svg" alt="">
+            <p>QIWI wallet</p>
+          </div>
+          <div class="footer__inner__item">
+            <img src="./img/yandex.svg" alt="">
+            <p>Yandex Money</p>
+          </div>
+          <div class="footer__inner__item">
+            <img src="./img/webmoney.svg" alt="">
+            <p>Web Money</p>
+          </div>
+        </div>
+        <div class="footer__inner__social">
+            <a href="mailto:softcorp@gmail.com" class="footer__inner__item">
+              <img src="./img/mail.svg" alt="email" >
+              <p>info@ipsum228.com</p>
+            </a>
+            <a href="http://vk.ru" class="footer__inner__item">
+              <img src="./img/vk.svg" alt="vk">
+              <p>Мы вконтакте</p>
+            </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
