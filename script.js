@@ -11,6 +11,7 @@ $(function () {
     // alert(url)
     switch (devType) {
       case "android":
+        console.log("1");
         $("#app-frame").attr("src", android_apk_url);
         $("#app-frame").ready(function () {
           return;
