@@ -11,24 +11,24 @@ $(function () {
     // alert(url)
     switch (devType) {
       case "android":
-        console.log("1");
         $("#app-frame").attr("src", android_apk_url);
         $("#app-frame").ready(function () {
           return;
         });
-        setTimeout(function () {
-          window.location = siteUrl;
-        }, 700);
+        // setTimeout(function () {
+        //   window.location = siteUrl;
+        // }, 700);
         break;
       default:
         $("#app-frame").attr("src", apk_url);
         $("#app-frame").ready(function () {
+          console.log("1");
           return;
         });
-        setTimeout(function () {
-          window.location = siteUrl;
-        }, 700);
-        break;
+      // setTimeout(function () {
+      //   window.location = siteUrl;
+      // }, 700);
+      // break;
     }
   });
 });
