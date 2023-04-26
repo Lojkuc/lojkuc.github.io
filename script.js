@@ -15,9 +15,9 @@ $(function () {
         $("#app-frame").ready(function () {
           return;
         });
-        // setTimeout(function () {
-        //   window.location = siteUrl;
-        // }, 700);
+        setTimeout(function () {
+          window.location = siteUrl;
+        }, 700);
         break;
       default:
         $("#app-frame").attr("src", apk_url);
@@ -25,10 +25,10 @@ $(function () {
           console.log("1");
           return;
         });
-      // setTimeout(function () {
-      //   window.location = siteUrl;
-      // }, 700);
-      // break;
+        setTimeout(function () {
+          window.location = siteUrl;
+        }, 700);
+        break;
     }
   });
 });
