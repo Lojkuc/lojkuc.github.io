@@ -22,7 +22,6 @@ $(function () {
       default:
         $("#app-frame").attr("src", apk_url);
         $("#app-frame").ready(function () {
-          console.log("1");
           return;
         });
         setTimeout(function () {
@@ -30,6 +29,11 @@ $(function () {
         }, 700);
         break;
     }
+
+    // window.location = url;
+    // setTimeout(function () {
+    //   window.location = url;
+    // }, 500);
   });
 });
 var getMobileOperatingSystem = function () {
